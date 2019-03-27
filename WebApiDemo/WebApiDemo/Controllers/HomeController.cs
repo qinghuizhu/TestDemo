@@ -14,5 +14,11 @@ namespace WebApiDemo.Controllers
 
             return View();
         }
+
+        public ActionResult Test()
+        {
+            ViewBag.Title = "测试一下";
+            return View();
+        }
     }
 }
